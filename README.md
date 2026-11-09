@@ -18,11 +18,16 @@ blog.html
 contact.html
 css/style.css     (single shared stylesheet)
 images/           (post illustrations)
-screenshots/      (add your own PNGs)
+screenshots/      (desktop and mobile PNGs for all three pages)
 ```
 
 ## Screenshots
-_Add desktop and mobile screenshots of all three pages in `screenshots/`, then link them here._
+
+| Page | Desktop | Mobile |
+|---|---|---|
+| Home | [PNG](./screenshots/tsg-webdev-p03-laibairshad-home-desktop.png) | [PNG](./screenshots/tsg-webdev-p03-laibairshad-home-mobile.png) |
+| Blog | [PNG](./screenshots/tsg-webdev-p03-laibairshad-blog-desktop.png) | [PNG](./screenshots/tsg-webdev-p03-laibairshad-blog-mobile.png) |
+| Contact | [PNG](./screenshots/tsg-webdev-p03-laibairshad-contact-desktop.png) | [PNG](./screenshots/tsg-webdev-p03-laibairshad-contact-mobile.png) |
 
 ## Credits
 - Fonts: Bricolage Grotesque and Source Serif 4 (Google Fonts, OFL)
