@@ -4,7 +4,7 @@ Project 03 (Beginner), The Sky Gen Web Development program.
 
 **Author:** Laiba Irshad
 
-**Live site:** _add your Netlify/Vercel URL_
+**Live site:** https://laiba-irshad.github.io/field-notes/
 
 ## Pages
 - `index.html` Home: hero, intro, links to the blog
