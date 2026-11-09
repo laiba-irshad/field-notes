@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog | Field Notes</title>
+  <meta name="description" content="Field Notes: a beginner's blog about learning web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Field Notes</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html" class="active" aria-current="page">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">The blog</h1>
+    <p class="lead">Four recent notes on getting started with HTML and CSS.</p>
+    <div class="grid">
+        <article class="card">
+          <img src="images/post-1.svg" alt="Illustration for the post Why every page needs one stylesheet" loading="lazy">
+          <div class="card-body">
+            <time datetime="12 October 2026">12 October 2026</time>
+            <h2>Why every page needs one stylesheet</h2>
+            <p>Copying styles into every file feels fast until you change a colour in three places. One shared file keeps the whole site in step.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/post-2.svg" alt="Illustration for the post Flexbox in ten minutes" loading="lazy">
+          <div class="card-body">
+            <time datetime="8 October 2026">8 October 2026</time>
+            <h2>Flexbox in ten minutes</h2>
+            <p>Rows, columns, and the two properties that do most of the work. A quick tour of the layout tool I use on every page.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/post-3.svg" alt="Illustration for the post A navigation bar that shows where you are" loading="lazy">
+          <div class="card-body">
+            <time datetime="3 October 2026">3 October 2026</time>
+            <h2>A navigation bar that shows where you are</h2>
+            <p>A small active-link style stops visitors getting lost. Here is how I add it to a multi-page site without any JavaScript.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/post-4.svg" alt="Illustration for the post Testing a site on a real phone" loading="lazy">
+          <div class="card-body">
+            <time datetime="28 September 2026">28 September 2026</time>
+            <h2>Testing a site on a real phone</h2>
+            <p>The browser preview lies a little. What I check on an actual phone before I call a page finished.</p>
+          </div>
+        </article>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Field Notes. Built by Laiba Irshad.</p>
+      <ul class="social">
+        <li><a href="https://github.com/" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="mailto:you@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
